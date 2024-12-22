@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a === 'number' && typeof b === 'number'){return a + b;}else{return Number(a) + Number(b);}}let x = foo(1, "2");console.log(x); // Output: 3
